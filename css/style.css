@@ -34,7 +34,6 @@ html {
     font-size: 26px;
     color: #fed136;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .menu {
@@ -70,7 +69,6 @@ html {
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
-
 }
 
 .service {
@@ -98,7 +96,6 @@ html {
 .service_head,
 .service_text {
     text-align: center;
-
 } 
 
 .services_head,
@@ -107,12 +104,8 @@ html {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-
 }
 
-.services_head {
-    color: #222;
-}
 
 .services_desk,
 .contact_desk {
@@ -132,8 +125,6 @@ html {
     font-weight: bold;
     padding-top: 24px;
     padding-bottom: 14px;
-
-
 }
 
 .service_text {
@@ -141,8 +132,6 @@ html {
     line-height: 18px;
     font-family: 'Roboto Slab', sans-serif;
     color: #777;
-    
-
 }
 
 .contact_head {
@@ -156,7 +145,6 @@ html {
     background-image: url(../img/Map_Image.png);
     background-repeat: no-repeat;
     background-position: 100% 90%;
-
 }
 
 .contact {
@@ -190,7 +178,6 @@ html {
 .mail,
 .subject,
 .textarea {
-    width: 455px;
     border: 2px solid #bbb;
     border-radius: 3px;
     padding-left: 20px;
@@ -200,8 +187,6 @@ html {
     color: #bbb;
     text-transform: uppercase;
     font-weight: bold;
-
-
 }
 
 .name,
@@ -215,6 +200,7 @@ html {
     resize: none;
     margin-left: 15px;
     padding-top: 18px;
+    width: 455px;
 }
 
 .button {
@@ -230,5 +216,4 @@ html {
     color: #fff;
     cursor: pointer;
     margin-top: 28px;
-
 }
