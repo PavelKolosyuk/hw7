@@ -9,8 +9,7 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin: 0;
 }
 
 .container {
@@ -71,7 +70,8 @@ html {
 }
 
 .service {
-    width: 290px;    
+    width: 290px;
+    padding: 0 5px;    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +105,6 @@ html {
     font-weight: bold;
 }
 
-
 .services_desk,
 .contact_desk {
     font-size: 16px;
@@ -129,8 +128,9 @@ html {
 .service_text {
     font-size: 14px;
     line-height: 18px;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: #777;
+    width: 100%;
 }
 
 .contact_head {
