@@ -18,7 +18,6 @@ html {
     margin: 0 auto;
 }
 
-
 .nav {
     height: 65px;
     display: flex;
@@ -33,7 +32,7 @@ html {
 .logo h1 {
     font-size: 26px;
     color: #fed136;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Wisdom Script', serif;
 }
 
 .menu {
@@ -111,7 +110,7 @@ html {
 .contact_desk {
     font-size: 16px;
     line-height: 18px;
-    font-family: 'Droid serif', sans-serif;
+    font-family: 'Droid serif', serif;
     color: #777;
     font-style: italic;
     padding: 24px 0;
@@ -216,4 +215,16 @@ html {
     color: #fff;
     cursor: pointer;
     margin-top: 28px;
+}
+
+.name:focus:invalid,
+.mail:focus:invalid,
+.subject:focus:invalid {
+    outline: 3px outset #f00;
+}
+
+.name:valid,
+.mail:valid,
+.subject:valid {
+    outline: 3px outset #0f0;
 }
